@@ -1,0 +1,375 @@
+Id,Label,timeset,typ1,typ2,Label_NEW,Label_FINAL,Label_FIN,indegree,outdegree,degree,clustering
+0,,,in,Interneuron,ADAL,,,11,19,30,0.153333
+1,,,in,Interneuron,ADAR,,,12,17,29,0.145022
+2,,,se,Sensory neuron,ADEL,,,7,28,35,0.093596
+3,,,se,Sensory neuron,ADER,,,9,20,29,0.141304
+4,,,se,Sensory neuron,ADFL,,,3,8,11,0.222222
+5,,,se,Sensory neuron,ADFR,,,10,14,24,0.189542
+6,,,se,Sensory neuron,ADLL,,,7,18,25,0.183333
+7,,,se,Sensory neuron,ADLR,,,3,16,19,0.220588
+8,,,se,Sensory neuron,AFDL,,,5,4,9,0.366667
+9,,,se,Sensory neuron,AFDR,,,7,4,11,0.232143
+10,,,in,Interneuron,AIAL,,,16,15,31,0.190476
+11,,,in,Interneuron,AIAR,,,14,13,27,0.213235
+12,,,in,Interneuron,AIBL,,,27,17,44,0.115865
+13,,,in,Interneuron,AIBR,,,31,18,49,0.112011
+14,,,in,Interneuron,AIML,,,3,17,20,0.172794
+15,,,in,Interneuron,AIMR,,,2,13,15,0.173077
+16,,,in,Interneuron,AINL,,,4,9,13,0.138889
+17,,,in,Interneuron,AINR,,,4,13,17,0.179487
+18,,,in,Interneuron,AIYL,,,11,9,20,0.190476
+19,,,in,Interneuron,AIYR,,,10,8,18,0.181319
+20,,,in,Interneuron,AIZL,,,14,15,29,0.144928
+21,,,in,Interneuron,AIZR,,,14,15,29,0.181159
+22,,,in,Interneuron,ALA,,,3,6,9,0.214286
+23,ALML,,se,Sensory neuron,ALML,,ALML,6,12,18,0.104396
+24,ALMR,,se,Sensory neuron,ALMR,,ALMR,2,7,9,0.119048
+25,,,se,Sensory neuron,ALNL,,,4,3,7,0.05
+26,,,se,Sensory neuron,ALNR,,,2,6,8,0.107143
+27,,,se,Sensory neuron,AQR,,,10,19,29,0.252381
+28,,,mo,Motor neuron,AS01,,,10,10,20,0.220833
+29,,,mo,Motor neuron,AS02,,,8,9,17,0.236264
+30,,,mo,Motor neuron,AS03,,,8,12,20,0.2375
+31,,,mo,Motor neuron,AS04,,,7,7,14,0.275641
+32,,,mo,Motor neuron,AS05,,,10,9,19,0.208333
+33,,,mo,Motor neuron,AS06,,,8,10,18,0.211538
+34,,,mo,Motor neuron,AS07,,,4,8,12,0.178571
+35,,,mo,Motor neuron,AS08,,,2,6,8,0.066667
+36,,,mo,Motor neuron,AS09,,,4,7,11,0.089286
+37,,,mo,Motor neuron,AS10,,,6,6,12,0.233333
+38,,,mo,Motor neuron,AS11,,,6,11,17,0.07619
+39,,,se,Sensory neuron,ASEL,,,8,9,17,0.204762
+40,,,se,Sensory neuron,ASER,,,10,11,21,0.241667
+41,,,se,Sensory neuron,ASGL,,,5,5,10,0.380952
+42,,,se,Sensory neuron,ASGR,,,7,5,12,0.152778
+43,,,se,Sensory neuron,ASHL,,,10,16,26,0.189474
+44,,,se,Sensory neuron,ASHR,,,13,17,30,0.177489
+45,,,se,Sensory neuron,ASIL,,,2,10,12,0.322222
+46,,,se,Sensory neuron,ASIR,,,2,8,10,0.446429
+47,,,se,Sensory neuron,ASJL,,,3,5,8,0.366667
+48,,,se,Sensory neuron,ASJR,,,3,4,7,0.4
+49,,,se,Sensory neuron,ASKL,,,11,6,17,0.219697
+50,,,se,Sensory neuron,ASKR,,,6,9,15,0.188889
+51,,,se,Sensory neuron,AUAL,,,9,8,17,0.147436
+52,,,se,Sensory neuron,AUAR,,,9,9,18,0.181319
+53,,,in,Interneuron,AVAL,,,83,51,134,0.072981
+54,,,in,Interneuron,AVAR,,,80,57,137,0.0741
+55,,,in,Interneuron,AVBL,,,60,42,102,0.099279
+56,,,in,Interneuron,AVBR,,,64,40,104,0.089596
+57,,,in,Interneuron,AVDL,,,29,23,52,0.140592
+58,,,in,Interneuron,AVDR,,,35,28,63,0.117172
+59,,,in,Interneuron,AVEL,,,41,21,62,0.107744
+60,,,in,Interneuron,AVER,,,39,24,63,0.105844
+61,,,"in, mo",Motor neuron,AVFL,,,13,17,30,0.177536
+62,,,"in, mo",Motor neuron,AVFR,,,11,15,26,0.178571
+63,,,"in, se",Sensory neuron,AVG,,,7,19,26,0.227273
+64,,,in,Interneuron,AVHL,,,12,18,30,0.152174
+65,,,in,Interneuron,AVHR,,,10,16,26,0.162338
+66,,,in,Interneuron,AVJL,,,25,17,42,0.229032
+67,,,in,Interneuron,AVJR,,,19,12,31,0.23399
+68,,,in,Interneuron,AVKL,,,25,28,53,0.145276
+69,,,in,Interneuron,AVKR,,,16,18,34,0.177536
+70,,,"mo, in",Motor neuron,AVL,,,17,17,34,0.105911
+71,AVM,,se,Sensory neuron,AVM,,AVM,5,17,22,0.190058
+72,,,se,Sensory neuron,AWAL,,,3,9,12,0.194444
+73,,,se,Sensory neuron,AWAR,,,7,13,20,0.185714
+74,,,se,Sensory neuron,AWBL,,,7,9,16,0.128205
+75,,,se,Sensory neuron,AWBR,,,9,12,21,0.166667
+76,,,se,Sensory neuron,AWCL,,,7,9,16,0.325758
+77,,,se,Sensory neuron,AWCR,,,9,7,16,0.348485
+78,,,se,Sensory neuron,BAGL,,,6,11,17,0.307692
+79,,,se,Sensory neuron,BAGR,,,8,8,16,0.204545
+80,,,in,Interneuron,BDUL,,,6,8,14,0.1
+81,,,in,Interneuron,BDUR,,,6,11,17,0.205128
+82,,,se,Sensory neuron,CEPDL,,,7,18,25,0.118421
+83,,,se,Sensory neuron,CEPDR,,,8,21,29,0.110507
+84,,,se,Sensory neuron,CEPVL,,,6,13,19,0.0875
+85,,,se,Sensory neuron,CEPVR,,,7,15,22,0.081871
+86,,,mo,Motor neuron,DA01,,,11,10,21,0.2625
+87,,,mo,Motor neuron,DA02,,,13,18,31,0.150362
+88,,,mo,Motor neuron,DA03,,,11,13,24,0.2
+89,,,mo,Motor neuron,DA04,,,9,15,24,0.166667
+90,,,mo,Motor neuron,DA05,,,10,12,22,0.220588
+91,,,mo,Motor neuron,DA06,,,5,15,20,0.052288
+92,,,mo,Motor neuron,DA07,,,2,7,9,0.035714
+93,,,mo,Motor neuron,DA08,,,10,8,18,0.116667
+94,,,mo,Motor neuron,DA09,,,11,16,27,0.106719
+95,,,mo,Motor neuron,DB01,,,10,20,30,0.139474
+96,,,mo,Motor neuron,DB02,,,8,17,25,0.140476
+97,,,mo,Motor neuron,DB03,,,12,20,32,0.175214
+98,,,mo,Motor neuron,DB04,,,12,14,26,0.171053
+99,,,mo,Motor neuron,DB05,,,7,9,16,0.211538
+100,,,mo,Motor neuron,DB06,,,7,9,16,0.211538
+101,,,mo,Motor neuron,DB07,,,6,13,19,0.080882
+102,,,mo,Motor neuron,DD01,,,21,13,34,0.126847
+103,,,mo,Motor neuron,DD02,,,19,11,30,0.121538
+104,,,mo,Motor neuron,DD03,,,14,8,22,0.110526
+105,,,mo,Motor neuron,DD04,,,8,9,17,0.054945
+106,,,mo,Motor neuron,DD05,,,5,9,14,0.106061
+107,,,mo,Motor neuron,DD06,,,8,10,18,0.068627
+108,,,in,Interneuron,DVA,,,22,37,59,0.114694
+109,,,"in, mo",Motor neuron,DVB,,,4,10,14,0.111111
+110,,,in,Interneuron,DVC,,,17,20,37,0.18661
+111,,,se,Sensory neuron,FLPL,,,9,13,22,0.309524
+112,,,se,Sensory neuron,FLPR,,,5,15,20,0.408333
+113,,,mo,Motor neuron,HSNL,,,11,17,28,0.108696
+114,,,mo,Motor neuron,HSNR,,,16,25,41,0.096591
+115,,,"se, mo",Motor neuron,IL1DL,,,8,13,21,0.141667
+116,,,"se, mo",Motor neuron,IL1DR,,,8,8,16,0.166667
+117,,,"se, mo",Motor neuron,IL1L,,,5,14,19,0.158088
+118,,,"se, mo",Motor neuron,IL1R,,,7,17,24,0.179654
+119,,,"se, mo",Motor neuron,IL1VL,,,9,8,17,0.134615
+120,,,"se, mo",Motor neuron,IL1VR,,,9,9,18,0.148352
+121,,,se,Sensory neuron,IL2DL,,,0,8,8,0.160714
+122,,,se,Sensory neuron,IL2DR,,,0,9,9,0.25
+123,,,se,Sensory neuron,IL2L,,,4,13,17,0.181319
+124,,,se,Sensory neuron,IL2R,,,6,13,19,0.185897
+125,,,se,Sensory neuron,IL2VL,,,1,11,12,0.218182
+126,,,se,Sensory neuron,IL2VR,,,2,10,12,0.263636
+127,,,in,Interneuron,LUAL,,,8,10,18,0.272727
+128,,,in,Interneuron,LUAR,,,6,10,16,0.372727
+129,,,mu,Muscle cell,MDL01,,,6,0,6,0.266667
+130,,,mu,Muscle cell,MDL02,,,5,0,5,0.2
+131,,,mu,Muscle cell,MDL03,,,8,0,8,0.142857
+132,,,mu,Muscle cell,MDL04,,,7,0,7,0.166667
+133,,,mu,Muscle cell,MDL05,,,8,0,8,0.214286
+134,,,mu,Muscle cell,MDL06,,,4,0,4,0.083333
+135,,,mu,Muscle cell,MDL07,,,5,0,5,0.4
+136,,,mu,Muscle cell,MDL08,,,8,0,8,0.196429
+137,,,mu,Muscle cell,MDL09,,,6,0,6,0.4
+138,,,mu,Muscle cell,MDL10,,,5,0,5,0.35
+139,,,mu,Muscle cell,MDL11,,,8,0,8,0.25
+140,,,mu,Muscle cell,MDL12,,,7,0,7,0.380952
+141,,,mu,Muscle cell,MDL13,,,8,0,8,0.160714
+142,,,mu,Muscle cell,MDL14,,,9,0,9,0.166667
+143,,,mu,Muscle cell,MDL15,,,4,0,4,0
+144,,,mu,Muscle cell,MDL16,,,4,0,4,0
+145,,,mu,Muscle cell,MDL17,,,6,0,6,0
+146,,,mu,Muscle cell,MDL18,,,4,0,4,0
+147,,,mu,Muscle cell,MDL19,,,6,0,6,0.1
+148,,,mu,Muscle cell,MDL20,,,5,0,5,0
+149,,,mu,Muscle cell,MDL21,,,6,0,6,0.266667
+150,,,mu,Muscle cell,MDL22,,,4,0,4,0.083333
+151,,,mu,Muscle cell,MDL23,,,4,0,4,0.083333
+152,,,mu,Muscle cell,MDL24,,,4,0,4,0.083333
+153,,,mu,Muscle cell,MDR01,,,9,0,9,0.194444
+154,,,mu,Muscle cell,MDR02,,,6,0,6,0.166667
+155,,,mu,Muscle cell,MDR03,,,9,0,9,0.125
+156,,,mu,Muscle cell,MDR04,,,7,0,7,0.119048
+157,,,mu,Muscle cell,MDR05,,,5,0,5,0.1
+158,,,mu,Muscle cell,MDR06,,,3,0,3,0
+159,,,mu,Muscle cell,MDR07,,,5,0,5,0.4
+160,,,mu,Muscle cell,MDR08,,,8,0,8,0.196429
+161,,,mu,Muscle cell,MDR09,,,6,0,6,0.4
+162,,,mu,Muscle cell,MDR10,,,5,0,5,0.35
+163,,,mu,Muscle cell,MDR11,,,8,0,8,0.25
+164,,,mu,Muscle cell,MDR12,,,7,0,7,0.380952
+165,,,mu,Muscle cell,MDR13,,,8,0,8,0.160714
+166,,,mu,Muscle cell,MDR14,,,8,0,8,0.178571
+167,,,mu,Muscle cell,MDR15,,,4,0,4,0
+168,,,mu,Muscle cell,MDR16,,,4,0,4,0
+169,,,mu,Muscle cell,MDR17,,,6,0,6,0
+170,,,mu,Muscle cell,MDR18,,,4,0,4,0
+171,,,mu,Muscle cell,MDR19,,,6,0,6,0.1
+172,,,mu,Muscle cell,MDR20,,,5,0,5,0
+173,,,mu,Muscle cell,MDR21,,,4,0,4,0.083333
+174,,,mu,Muscle cell,MDR22,,,4,0,4,0.083333
+175,,,mu,Muscle cell,MDR23,,,4,0,4,0.083333
+176,,,mu,Muscle cell,MDR24,,,4,0,4,0.083333
+177,,,mu,Muscle cell,MVL01,,,8,0,8,0.142857
+178,,,mu,Muscle cell,MVL02,,,7,0,7,0.142857
+179,,,mu,Muscle cell,MVL03,,,7,0,7,0.190476
+180,,,mu,Muscle cell,MVL04,,,7,0,7,0.142857
+181,,,mu,Muscle cell,MVL05,,,7,0,7,0.190476
+182,,,mu,Muscle cell,MVL06,,,5,0,5,0.05
+183,,,mu,Muscle cell,MVL07,,,6,0,6,0.333333
+184,,,mu,Muscle cell,MVL08,,,6,0,6,0.166667
+185,,,mu,Muscle cell,MVL09,,,4,0,4,0.333333
+186,,,mu,Muscle cell,MVL10,,,5,0,5,0.35
+187,,,mu,Muscle cell,MVL11,,,6,0,6,0.1
+188,,,mu,Muscle cell,MVL12,,,8,0,8,0.214286
+189,,,mu,Muscle cell,MVL13,,,5,0,5,0.3
+190,,,mu,Muscle cell,MVL14,,,8,0,8,0.232143
+191,,,mu,Muscle cell,MVL15,,,7,0,7,0.261905
+192,,,mu,Muscle cell,MVL16,,,5,0,5,0.4
+193,,,mu,Muscle cell,MVL17,,,5,0,5,0.4
+194,,,mu,Muscle cell,MVL18,,,4,0,4,0.333333
+195,,,mu,Muscle cell,MVL19,,,4,0,4,0.666667
+196,,,mu,Muscle cell,MVL20,,,6,0,6,0.3
+197,,,mu,Muscle cell,MVL21,,,4,0,4,0.583333
+198,,,mu,Muscle cell,MVL22,,,4,0,4,0.416667
+199,,,mu,Muscle cell,MVL23,,,3,0,3,0.666667
+200,,,mu,Muscle cell,MVR01,,,11,0,11,0.190909
+201,,,mu,Muscle cell,MVR02,,,8,0,8,0.178571
+202,,,mu,Muscle cell,MVR03,,,8,0,8,0.178571
+203,,,mu,Muscle cell,MVR04,,,7,0,7,0.142857
+204,,,mu,Muscle cell,MVR05,,,6,0,6,0.166667
+205,,,mu,Muscle cell,MVR06,,,6,0,6,0.3
+206,,,mu,Muscle cell,MVR07,,,9,0,9,0.180556
+207,,,mu,Muscle cell,MVR08,,,6,0,6,0.2
+208,,,mu,Muscle cell,MVR09,,,3,0,3,0.666667
+209,,,mu,Muscle cell,MVR10,,,5,0,5,0.35
+210,,,mu,Muscle cell,MVR11,,,5,0,5,0.15
+211,,,mu,Muscle cell,MVR12,,,6,0,6,0.4
+212,,,mu,Muscle cell,MVR13,,,4,0,4,0.416667
+213,,,mu,Muscle cell,MVR14,,,8,0,8,0.232143
+214,,,mu,Muscle cell,MVR15,,,7,0,7,0.261905
+215,,,mu,Muscle cell,MVR16,,,5,0,5,0.4
+216,,,mu,Muscle cell,MVR17,,,5,0,5,0.4
+217,,,mu,Muscle cell,MVR18,,,4,0,4,0.333333
+218,,,mu,Muscle cell,MVR19,,,4,0,4,0.666667
+219,,,mu,Muscle cell,MVR20,,,6,0,6,0.3
+220,,,mu,Muscle cell,MVR21,,,4,0,4,0.416667
+221,,,mu,Muscle cell,MVR22,,,4,0,4,0.583333
+222,,,mu,Muscle cell,MVR23,,,3,0,3,0.666667
+223,,,mu,Muscle cell,MVR24,,,3,0,3,0.666667
+224,,,se,Sensory neuron,OLLL,,,7,16,23,0.156863
+225,,,se,Sensory neuron,OLLR,,,12,16,28,0.12381
+226,,,se,Sensory neuron,OLQDL,,,10,8,18,0.147436
+227,,,se,Sensory neuron,OLQDR,,,10,11,21,0.12381
+228,,,se,Sensory neuron,OLQVL,,,10,13,23,0.12381
+229,,,se,Sensory neuron,OLQVR,,,9,12,21,0.180952
+230,,,mo,Motor neuron,PDA,,,3,6,9,0.166667
+231,,,mo,Motor neuron,PDB,,,2,5,7,0.2
+232,,,se,Sensory neuron,PDEL,,,8,8,16,0.366667
+233,,,se,Sensory neuron,PDER,,,9,8,17,0.333333
+234,,,se,Sensory neuron,PHAL,,,2,10,12,0.266667
+235,,,se,Sensory neuron,PHAR,,,2,9,11,0.180556
+236,,,se,Sensory neuron,PHBL,,,4,6,10,0.444444
+237,,,se,Sensory neuron,PHBR,,,4,11,15,0.339744
+238,,,se,Sensory neuron,PHCL,,,5,8,13,0.291667
+239,,,se,Sensory neuron,PHCR,,,3,7,10,0.285714
+240,PLML,,se,Sensory neuron,PLML,,PLML,3,4,7,0.166667
+241,PLMR,,se,Sensory neuron,PLMR,,PLMR,4,13,17,0.417582
+242,,,se,Sensory neuron,PLNL,,,1,2,3,0.5
+243,,,se,Sensory neuron,PLNR,,,0,2,2,0.5
+244,,,se,Sensory neuron,PQR,,,5,8,13,0.416667
+245,,,in,Interneuron,PVCL,,,30,34,64,0.121593
+246,,,in,Interneuron,PVCR,,,31,38,69,0.124819
+247,,,se,Sensory neuron,PVDL,,,2,6,8,0.428571
+248,,,se,Sensory neuron,PVDR,,,0,7,7,0.642857
+249,,,"se, in",Sensory neuron,PVM,,,4,8,12,0.392857
+250,,,"in, mo",Motor neuron,PVNL,,,10,21,31,0.201667
+251,,,"in, mo",Motor neuron,PVNR,,,11,24,35,0.142857
+252,,,in,Interneuron,PVPL,,,15,20,35,0.201581
+253,,,in,Interneuron,PVPR,,,13,22,35,0.191667
+254,,,in,Interneuron,PVQL,,,11,7,18,0.203297
+255,,,in,Interneuron,PVQR,,,13,17,30,0.168478
+256,,,"in, se",Sensory neuron,PVR,,,12,26,38,0.110345
+257,,,in,Interneuron,PVT,,,20,16,36,0.136243
+258,,,in,Interneuron,PVWL,,,6,5,11,0.255556
+259,,,in,Interneuron,PVWR,,,2,5,7,0.4
+260,,,in,Interneuron,RIAL,,,27,15,42,0.129735
+261,,,in,Interneuron,RIAR,,,26,18,44,0.12381
+262,,,in,Interneuron,RIBL,,,33,23,56,0.111664
+263,,,in,Interneuron,RIBR,,,29,23,52,0.135472
+264,,,in,Interneuron,RICL,,,15,15,30,0.096667
+265,,,in,Interneuron,RICR,,,16,10,26,0.088768
+266,,,"mo, in",Motor neuron,RID,,,11,15,26,0.094737
+267,,,in,Interneuron,RIFL,,,8,9,17,0.147619
+268,,,in,Interneuron,RIFR,,,8,14,22,0.239766
+269,,,in,Interneuron,RIGL,,,26,23,49,0.126894
+270,,,in,Interneuron,RIGR,,,20,16,36,0.143333
+271,,,in,Interneuron,RIH,,,18,25,43,0.097782
+272,,,"mo, in",Motor neuron,RIML,,,20,20,40,0.135484
+273,,,"mo, in",Motor neuron,RIMR,,,22,25,47,0.135294
+274,,,in,Interneuron,RIPL,,,15,3,18,0.150735
+275,,,in,Interneuron,RIPR,,,14,3,17,0.1125
+276,,,in,Interneuron,RIR,,,12,15,27,0.138528
+277,,,in,Interneuron,RIS,,,14,24,38,0.14418
+278,,,"in, mo",Motor neuron,RIVL,,,8,13,21,0.152381
+279,,,"in, mo",Motor neuron,RIVR,,,8,18,26,0.128571
+280,,,"mo, in",Motor neuron,RMDDL,,,21,11,32,0.145299
+281,,,"mo, in",Motor neuron,RMDDR,,,19,13,32,0.112308
+282,,,"mo, in",Motor neuron,RMDL,,,20,18,38,0.107863
+283,,,"mo, in",Motor neuron,RMDR,,,20,13,33,0.122507
+284,,,"mo, in",Motor neuron,RMDVL,,,20,17,37,0.109606
+285,,,"mo, in",Motor neuron,RMDVR,,,22,22,44,0.082353
+286,,,mo,Motor neuron,RMED,,,8,11,19,0.057143
+287,,,mo,Motor neuron,RMEL,,,11,6,17,0.066667
+288,,,mo,Motor neuron,RMER,,,16,4,20,0.105263
+289,,,mo,Motor neuron,RMEV,,,19,13,32,0.061667
+290,,,"mo, in",Motor neuron,RMFL,,,10,10,20,0.161765
+291,,,"mo, in",Motor neuron,RMFR,,,7,3,10,0.361111
+292,,,"mo, in",Motor neuron,RMGL,,,14,26,40,0.072414
+293,,,"mo, in",Motor neuron,RMGR,,,12,21,33,0.086154
+294,,,"mo, in",Motor neuron,RMHL,,,8,6,14,0.068182
+295,,,"mo, in",Motor neuron,RMHR,,,9,7,16,0.054945
+296,,,in,Interneuron,SAADL,,,9,6,15,0.141026
+297,,,in,Interneuron,SAADR,,,10,8,18,0.158333
+298,,,in,Interneuron,SAAVL,,,7,10,17,0.151515
+299,,,in,Interneuron,SAAVR,,,8,6,14,0.155556
+300,,,in,Interneuron,SABD,,,14,4,18,0.296703
+301,,,in,Interneuron,SABVL,,,10,3,13,0.344444
+302,,,in,Interneuron,SABVR,,,9,3,12,0.430556
+303,,,in,Interneuron,SDQL,,,3,10,13,0.190909
+304,,,in,Interneuron,SDQR,,,6,13,19,0.166667
+305,,,in,Interneuron,SIADL,,,5,1,6,0.2
+306,,,in,Interneuron,SIADR,,,4,1,5,0.166667
+307,,,in,Interneuron,SIAVL,,,6,1,7,0.033333
+308,,,in,Interneuron,SIAVR,,,6,1,7,0.066667
+309,,,in,Interneuron,SIBDL,,,3,2,5,0.666667
+310,,,in,Interneuron,SIBDR,,,7,3,10,0.142857
+311,,,in,Interneuron,SIBVL,,,10,5,15,0.211111
+312,,,in,Interneuron,SIBVR,,,9,4,13,0.180556
+313,,,"mo, in",Motor neuron,SMBDL,,,11,12,23,0.049708
+314,,,"mo, in",Motor neuron,SMBDR,,,14,13,27,0.065217
+315,,,"mo, in",Motor neuron,SMBVL,,,8,11,19,0.025735
+316,,,"mo, in",Motor neuron,SMBVR,,,9,11,20,0.051471
+317,,,"mo, in",Motor neuron,SMDDL,,,17,18,35,0.07672
+318,,,"mo, in",Motor neuron,SMDDR,,,22,13,35,0.098522
+319,,,"mo, in",Motor neuron,SMDVL,,,15,16,31,0.110507
+320,,,"mo, in",Motor neuron,SMDVR,,,15,13,28,0.155263
+321,,,"mo, se",Motor neuron,URADL,,,4,6,10,0.122222
+322,,,"mo, se",Motor neuron,URADR,,,3,9,12,0.121212
+323,,,"mo, se",Motor neuron,URAVL,,,2,8,10,0.111111
+324,,,"mo, se",Motor neuron,URAVR,,,2,9,11,0.127273
+325,,,"in, se",Sensory neuron,URBL,,,5,10,15,0.083333
+326,,,"in, se",Sensory neuron,URBR,,,5,14,19,0.137363
+327,,,"se, in",Sensory neuron,URXL,,,5,9,14,0.166667
+328,,,"se, in",Sensory neuron,URXR,,,8,12,20,0.143382
+329,,,se,Sensory neuron,URYDL,,,6,8,14,0.281818
+330,,,se,Sensory neuron,URYDR,,,4,8,12,0.311111
+331,,,se,Sensory neuron,URYVL,,,3,13,16,0.217949
+332,,,se,Sensory neuron,URYVR,,,4,11,15,0.166667
+333,,,mo,Motor neuron,VA01,,,7,8,15,0.159091
+334,,,mo,Motor neuron,VA02,,,10,11,21,0.257353
+335,,,mo,Motor neuron,VA03,,,10,15,25,0.181579
+336,,,mo,Motor neuron,VA04,,,9,13,22,0.204167
+337,,,mo,Motor neuron,VA05,,,7,11,18,0.160256
+338,,,mo,Motor neuron,VA06,,,5,10,15,0.174242
+339,,,mo,Motor neuron,VA07,,,5,13,18,0.087912
+340,,,mo,Motor neuron,VA08,,,10,17,27,0.227941
+341,,,mo,Motor neuron,VA09,,,12,16,28,0.160526
+342,,,mo,Motor neuron,VA10,,,3,6,9,0.119048
+343,,,mo,Motor neuron,VA11,,,7,10,17,0.181319
+344,,,mo,Motor neuron,VA12,,,12,22,34,0.132275
+345,,,mo,Motor neuron,VB01,,,10,21,31,0.117754
+346,,,mo,Motor neuron,VB02,,,11,22,33,0.108696
+347,,,mo,Motor neuron,VB03,,,6,12,18,0.089744
+348,,,mo,Motor neuron,VB04,,,8,11,19,0.159341
+349,,,mo,Motor neuron,VB05,,,7,10,17,0.181818
+350,,,mo,Motor neuron,VB06,,,7,13,20,0.185714
+351,,,mo,Motor neuron,VB07,,,5,6,11,0.285714
+352,,,mo,Motor neuron,VB08,,,8,14,22,0.220833
+353,,,mo,Motor neuron,VB09,,,10,15,25,0.261905
+354,,,mo,Motor neuron,VB10,,,8,12,20,0.137363
+355,,,mo,Motor neuron,VB11,,,6,12,18,0.142857
+356,,,mo,Motor neuron,VC01,,,4,14,18,0.257143
+357,,,mo,Motor neuron,VC02,,,5,15,20,0.222222
+358,,,mo,Motor neuron,VC03,,,8,21,29,0.199134
+359,,,mo,Motor neuron,VC04,,,3,6,9,0.333333
+360,,,mo,Motor neuron,VC05,,,3,9,12,0.152778
+361,,,mo,Motor neuron,VD01,,,18,13,31,0.106061
+362,,,mo,Motor neuron,VD02,,,17,10,27,0.180952
+363,,,mo,Motor neuron,VD03,,,15,9,24,0.152047
+364,,,mo,Motor neuron,VD04,,,15,8,23,0.152047
+365,,,mo,Motor neuron,VD05,,,15,8,23,0.157895
+366,,,mo,Motor neuron,VD06,,,14,11,25,0.12381
+367,,,mo,Motor neuron,VD07,,,7,6,13,0.218182
+368,,,mo,Motor neuron,VD08,,,2,4,6,0.25
+369,,,mo,Motor neuron,VD09,,,5,6,11,0.222222
+370,,,mo,Motor neuron,VD10,,,7,9,16,0.2
+371,,,mo,Motor neuron,VD11,,,3,7,10,0.166667
+372,,,mo,Motor neuron,VD12,,,5,8,13,0.155556
+373,,,mo,Motor neuron,VD13,,,9,12,21,0.133987

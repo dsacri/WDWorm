@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99cb85562c764994194e7fd888faa376, type: 3}
+  m_Name: Paths
+  m_EditorClassIdentifier: 
+  NeuronNames:
+  - Neurons
+  - map_neuron_names_int
+  - .txt
+  NeuronPositions:
+  - Neurons
+  - _bluevex202203_LowResAtlasWithHighResHeadsAndTails
+  - .csv
+  NeuronSimData:
+  - Neurons
+  - simulatedNeuronalActivity_cElegans_2022-12-07
+  - .csv
+  NeuronConnections:
+  - Neurons
+  - 2_ConnectivityData-download NeuronConnect
+  - .csv
+  NeuronLocomotory_circuits:
+  - Neurons
+  - locomotory_circuits
+  - .csv
+  NeuronNerve_system_names:
+  - Neurons
+  - nerve_system_names
+  - .csv
+  NeuronOlfactory_system:
+  - Neurons
+  - olfactory_system
+  - .csv
+  NeuronTypes:
+  - Neurons
+  - CE_MLN_TMAE_nodes
+  - .csv
+  MuscleMovement:
+  - Muscles
+  - ExampleData50fps
+  - .csv
+  MuscleActivity:
+  - Muscles
+  - normalized_muscleActivity
+  - .csv
+  MatlabACh_weights:
+  - Matlab
+  - data_MAE21_ACh_weights
+  - .csv
+  Matlabelectrical_weights:
+  - Matlab
+  - data_MAE21_electrical_weights
+  - .csv
+  MatlabGABA_weights:
+  - Matlab
+  - data_MAE21_GABA_weights
+  - .csv
+  MatlabGlu_weights:
+  - Matlab
+  - data_MAE21_Glu_weights
+  - .csv
+  Matlabmuscular_ACh:
+  - Matlab
+  - data_MAE21_muscular_ACh
+  - .csv
+  Matlabmuscular_GABA:
+  - Matlab
+  - data_MAE21_muscular_GABA
+  - .csv
