@@ -11,7 +11,7 @@ WDWorm is a nerve net simulator of *C. elegans* is modeled using electrical circ
 3. it can generate artificial calcium concentration traces comparable to fluorescence traces obtained by calcium imaging methods, supporting comparison with real measurement data, 
 4. it allows the user to modify the simulation during runtime, such that also transient behavior due to the changes can be observed.
 
-This project contains the source code and project files necessary to build the application using Unity version 6000.0.32f1 (https://unity.com). The graphical user interface (GUI) was designed in Unity, and the code was written in C#. The 3D model is based on a Blender model created by Chris Grove, PhD, for WormBase (www.wormbase.org) at the California Institute of Technology.
+This project contains the source code and project files necessary to build the application using [Unity version 6000.0.32f1](https://unity.com/releases/editor/whats-new/6000.0.32). The graphical user interface (GUI) was designed in Unity, and the code was written in C#. The 3D model is based on a Blender model created by Chris Grove, PhD, for WormBase (www.wormbase.org) at the California Institute of Technology.
 
 A compiled Windows version of the application is available here: [WDWorm-compiled](https://github.com/dsacri/WDWorm-compiled). It can be run directly without installation.
 
@@ -20,7 +20,7 @@ A compiled Windows version of the application is available here: [WDWorm-compile
 The application is optimized to run on most Windows personal computers. Versions for iOS and Android can be compiled directly from the provided source code and Unity project.
 
 ## Installation
-An installation is not required. The Unity project files can be downloaded and opened in Unity version 6000.0.32f1 to run or compile the application. Alternatively, a precompiled version is available at [WDWorm-compiled](https://github.com/dsacri/WDWorm-compiled).
+An installation is not required. The Unity project files can be downloaded and opened in [Unity version 6000.0.32f1](https://unity.com/releases/editor/whats-new/6000.0.32) to run or compile the application. Alternatively, a precompiled version is available at [WDWorm-compiled](https://github.com/dsacri/WDWorm-compiled).
 
 ## Usage
 WDWorm can be launched by executing CElegans.exe located in the build folder, or from within the Unity development environment when using the source code.
