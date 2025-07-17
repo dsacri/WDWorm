@@ -13,14 +13,14 @@ WDWorm is a nerve net simulator of *C. elegans* is modeled using electrical circ
 
 This project contains the source code and project files necessary to build the application using Unity version 6000.0.32f1 (https://unity.com). The graphical user interface (GUI) was designed in Unity, and the code was written in C#. The 3D model is based on a Blender model created by Chris Grove, PhD, for WormBase (www.wormbase.org) at the California Institute of Technology.
 
-A compiled Windows version of the application is available here: [link](github.com). It can be run directly without installation.
+A compiled Windows version of the application is available here: [WDWorm-compiled](https://github.com/dsacri/WDWorm-compiled). It can be run directly without installation.
 
 
 ## Requirements
 The application is optimized to run on most Windows personal computers. Versions for iOS and Android can be compiled directly from the provided source code and Unity project.
 
 ## Installation
-An installation is not required. The Unity project files can be downloaded and opened in Unity version 6000.0.32f1 to run or compile the application. Alternatively, a precompiled version is available at [link](github.com).
+An installation is not required. The Unity project files can be downloaded and opened in Unity version 6000.0.32f1 to run or compile the application. Alternatively, a precompiled version is available at [WDWorm-compiled](https://github.com/dsacri/WDWorm-compiled).
 
 ## Usage
 WDWorm can be launched by executing CElegans.exe located in the build folder, or from within the Unity development environment when using the source code.
