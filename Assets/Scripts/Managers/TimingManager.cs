@@ -35,10 +35,10 @@ public class TimingManager : MonoBehaviour
     /// do new calculation and do soft update
     /// </summary>
     public bool NeedsHardUpdate { get; set; }
-    public bool ResetNextUpdate { get; set; }
 
     private int time = 0;
     private bool isPaused = true;
+    private bool resetNextUpdate;
 
     private void Awake()
     {
@@ -76,15 +76,16 @@ public class TimingManager : MonoBehaviour
             Time++;
         }
 
-        if (Time >= MaxTime)
+        if (Time >= MaxTime && !resetNextUpdate)
         {
-            Time = 0;
+            IsPaused = true;
+            return;
         }
 
-        if (ResetNextUpdate)
+        if (resetNextUpdate)
         {
             Time = 0;
-            ResetNextUpdate = false;
+            resetNextUpdate = false;
             InitializationManager.Instance.CreateNewRunMe();
             NeedsHardUpdate = true;
         }
@@ -96,16 +97,32 @@ public class TimingManager : MonoBehaviour
                 InitializationManager.Instance.RunMe.RunOneLoop(Time);
             }
 
-            if (Time == MaxTime - 1)
-            {
-                InitializationManager.Instance.CreateNewRunMe();
-            }
-
             NeuronManager.Instance.ManualUpdate();
         }
 
         NeedsSoftUpdate = false;
         NeedsHardUpdate = false;
+    }
+
+    public void PlayPausedPressed()
+    {
+        if (Time >= MaxTime)
+        {
+            resetNextUpdate = true;
+            IsPaused = false;
+        }
+        else
+        {
+            IsPaused = !IsPaused;
+        }
+    }
+
+    public void ResetTime()
+    {
+        resetNextUpdate = true;
+
+        if (IsPaused)
+            PlayOneLoop();
     }
 
 }

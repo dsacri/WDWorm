@@ -32,10 +32,7 @@ public class Timeline : MonoBehaviour
     private void Start()
     {
         //show correct icon at start
-        if (TimingManager.Instance.IsPaused)
-            Pause();
-        else
-            Play();
+        PlayPauseChangedListener();
 
         InitializationManager.Instance.LoadingFinishedEvent.AddListener(LoadingFinishedListener);
         TimingManager.Instance.PlayPauseChangedEvent.AddListener(PlayPauseChangedListener);
@@ -50,34 +47,18 @@ public class Timeline : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && TimingManager.Instance.IsPlayModeActive)
         {
-            if (TimingManager.Instance.IsPaused)
-                Play();
-            else
-                Pause();
+            TimingManager.Instance.PlayPausedPressed();
         }
     }
 
     public void ResetTime()         //gui
     {
-        TimingManager.Instance.ResetNextUpdate = true;
+        TimingManager.Instance.ResetTime();
     }
 
     public void PlayPause()          //gui
     {
-        if (TimingManager.Instance.IsPaused)
-            Play();
-        else 
-            Pause();
-    }
-
-    private void Play()
-    {
-        TimingManager.Instance.IsPaused = false;
-    }
-
-    private void Pause()
-    {
-        TimingManager.Instance.IsPaused = true;
+        TimingManager.Instance.PlayPausedPressed();
     }
 
     private void LoadingFinishedListener()

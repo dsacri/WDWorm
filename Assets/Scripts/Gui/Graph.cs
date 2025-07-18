@@ -64,6 +64,25 @@ public class Graph : MaskableGraphic
             values.RemoveAt(0);
     }
 
+    public float CalculateAverage()
+    {
+        float avgValue = 0;
+
+        if (values.Count == 0)
+        {
+            return 0;
+        }
+
+        for (int i = 0; i < values.Count; i++)
+        {
+            avgValue += values[i];
+        }
+
+        avgValue /= values.Count;
+
+        return avgValue;
+    }
+
     public void SetMaxValueCount(int number)
     {
         maxValues = number;

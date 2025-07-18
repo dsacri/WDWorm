@@ -22,6 +22,10 @@ public class AllGraphsWindow : MonoBehaviour
     [SerializeField] protected ScrollViewVisibilityChecker scrollViewVisibilityChecker;
     [SerializeField] protected TMP_Text title;
     [SerializeField] protected int drawEveryXFrames = 5;
+    [SerializeField] protected TMP_Text peakText;
+    [SerializeField] protected TMP_Text averageText;
+    [SerializeField] protected TMP_Text peakValue;
+    [SerializeField] protected TMP_Text averageValue;
 
     /// <summary>
     /// singleton
@@ -61,6 +65,8 @@ public class AllGraphsWindow : MonoBehaviour
     /// frames until next draw
     /// </summary>
     private int framesTillDraw;
+    private float currentPeakValue;
+    private float currentAverageValue;
 
     private void Awake()
     {
@@ -128,7 +134,6 @@ public class AllGraphsWindow : MonoBehaviour
                 float value = matlabSerializedData.membranePotential ?
                     InitializationManager.Instance.RunMe.GetSingleNeuronActivityOfANeuron(i, TimingManager.Instance.Time) :
                     InitializationManager.Instance.RunMe.GetSingleEtaOfANeuron(i, TimingManager.Instance.Time);
-
                 Graph.MinValue = Mathf.Min(Graph.MinValue, value);
                 Graph.MaxValue = Mathf.Max(Graph.MaxValue, value);
 
@@ -180,6 +185,16 @@ public class AllGraphsWindow : MonoBehaviour
     }
 
     /// <summary>
+    /// draw all graphs with one frame delay
+    /// </summary>
+    private IEnumerator DrawIEnumerator()
+    {
+        yield return null;
+
+        Draw(true);
+    }
+
+    /// <summary>
     /// draw all graphs
     /// </summary>
     /// <param name="force">force a new draw (otherwise the draw can be skipped)</param>
@@ -187,6 +202,30 @@ public class AllGraphsWindow : MonoBehaviour
     {
         if (!InitializationManager.Instance.LoadingFinished)
             return;
+
+        MatlabSerializedData matlabSerializedData = InitializationManager.Instance.MatlabSerializedData;
+
+        float avgValue = 0;
+        int graphIndex = 0;
+
+        for (int i = 0; i < matlabSerializedData.graphNeurons.Length; i++)
+        {
+            if (!matlabSerializedData.graphNeurons[i])
+                continue;
+
+            avgValue += allGraphs[graphIndex].CalculateAverage();
+
+            graphIndex++;
+        }
+
+        if (graphIndex != 0)
+            avgValue /= graphIndex;
+
+        currentAverageValue = avgValue;
+        currentPeakValue = Graph.MaxValue;
+
+        RefreshPeakValue();
+        RefreshAverageValue();
 
         if (framesTillDraw > 0 && !force)
         {
@@ -217,6 +256,10 @@ public class AllGraphsWindow : MonoBehaviour
 
         MatlabSerializedData matlabSerializedData = InitializationManager.Instance.MatlabSerializedData;
         title.text = matlabSerializedData.membranePotential ? "Membrane Potential" : "Calcium Concentration";
+        peakText.text = matlabSerializedData.membranePotential ? "Peak Activity:" : "Maximum Calcium Amplitude:";
+        averageText.text = matlabSerializedData.membranePotential ? "Average Activity:" : "Average Calcium Amplitude:";
+        RefreshPeakValue();
+        RefreshAverageValue();
 
         int arraySize = 0;
 
@@ -301,6 +344,26 @@ public class AllGraphsWindow : MonoBehaviour
         }
     }
 
+    private void RefreshPeakValue()
+    {
+        MatlabSerializedData matlabSerializedData = InitializationManager.Instance.MatlabSerializedData;
+        int roundDigits = matlabSerializedData.membranePotential ? 3 : 10;
+        
+        float value = currentPeakValue;
+        
+        if (value == float.MinValue)
+            value = 0;
+
+        peakValue.text = Math.Round(value, roundDigits) + (matlabSerializedData.membranePotential ? " V" : " M");
+    }
+
+    private void RefreshAverageValue()
+    {
+        MatlabSerializedData matlabSerializedData = InitializationManager.Instance.MatlabSerializedData;
+        int roundDigits = matlabSerializedData.membranePotential ? 3 : 10;
+        averageValue.text = Math.Round(currentAverageValue, roundDigits) + (matlabSerializedData.membranePotential ? " V" : " M");
+    }
+
     /// <summary>
     /// calculate size of the window
     /// </summary>
@@ -347,6 +410,7 @@ public class AllGraphsWindow : MonoBehaviour
     private void Open()
     {
         gameObject.SetActive(true);
+        StartCoroutine(DrawIEnumerator());
     }
 
     private void Close()
