@@ -29,15 +29,24 @@ Upon startup, the default view displays the body model of C. elegans. The simula
 <img width="1919" height="1079" alt="default view" src="https://github.com/user-attachments/assets/d61db563-8841-44e2-82cd-ff9f386833da" />
 
 Three control buttons are located in the top-right corner of the interface:
-- **Graph**: Toggles the display of individual values for activated neurons. The graph window, which shows the last 20 seconds of simulation data, can be moved by dragging it.
+- **Graph**: Toggles the display of individual values for activated neurons. The graph window, which shows up to 20 seconds of simulation data, can be moved by dragging it.
+  <img width="3838" height="2158" alt="grafik" src="https://github.com/user-attachments/assets/cebaf28c-34a7-459b-b7c1-b2e1b6e106dd" />
 - **Menu**: Provides options to exit the application (Close App), reset the camera view (Reset Camera), and toggle the display of all neurons (Show All Neurons). When this option is enabled, all neurons are shown at a fixed size, regardless of their activity.
+         <img width="218" height="799" alt="grafik" src="https://github.com/user-attachments/assets/9c5b2ecb-6510-48a5-9b0a-bfbd35f61d1e" />
 - **Settings**: Opens a configuration menu containing multiple tabs:
   - **General Settings**: Allows saving the current configuration to a .json file, loading settings from a .json file, and exporting simulation results as .csv files.
+    <img width="3838" height="2158" alt="grafik" src="https://github.com/user-attachments/assets/400c5bcf-ba57-47e9-8b90-2fcec9c5bd23" />
   - **Graph Settings**: Provides options to switch between a line graph and a heatmap, select the parameter displayed (either membrane potential or calcium concentration), and choose which neurons from the list on the left are shown in the graph.
+    <img width="3838" height="2158" alt="grafik" src="https://github.com/user-attachments/assets/95e70d28-e4d8-46b5-a825-4020d5c84478" />
   - **Toggle Neuron**: Enables or disables individual neurons. Entire neural circuits can also be toggled using the selector in the bottom-right corner.
+    <img width="3838" height="2158" alt="grafik" src="https://github.com/user-attachments/assets/6407b93c-0347-46c2-ae8a-67c2c4adfa2e" />
   - **External Current Stimuli**: Allows selection of neurons to be stimulated with external current, along with configuration of current amplitude and pulse width.
+    <img width="3838" height="2158" alt="grafik" src="https://github.com/user-attachments/assets/91241201-15c9-468d-a425-419ba1831835" />
   - **Modify Connectome**: The connectome data from the 3D atlas by *Skuhersky et al. (2022)* is used by default. This tab allows adding new connections between neurons. To define a connection, click one neuron with the left mouse button and another with the right mouse button. Parameters for individual connections can be adjusted by selecting a connection and clicking "Change Connection Values". The chemical layers of connections can also be enabled or disabled in the bottom-right corner.
+    <img width="3838" height="2158" alt="grafik" src="https://github.com/user-attachments/assets/a7b1f3aa-a6df-46ca-8b0d-2b9e45d49f04" />
   - **Neuron Model Parameters**: Allows modification of wave-digital model parameters for each neuron. Select a neuron from the list on the left to adjust its parameters on the right. A reset button is available to restore default parameter values.
+    <img width="3838" height="2158" alt="grafik" src="https://github.com/user-attachments/assets/7c7170c7-dff4-4d9a-8452-f07014c81aaf" />
+
 
 
 ## Acknowledgement
