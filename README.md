@@ -38,6 +38,8 @@ Three control buttons are located in the top-right corner of the interface:
     <img width="3838" height="2158" alt="grafik" src="https://github.com/user-attachments/assets/400c5bcf-ba57-47e9-8b90-2fcec9c5bd23" />
   - **Graph Settings**: Provides options to switch between a line graph and a heatmap, select the parameter displayed (either membrane potential or calcium concentration), and choose which neurons from the list on the left are shown in the graph.
     <img width="3838" height="2158" alt="grafik" src="https://github.com/user-attachments/assets/95e70d28-e4d8-46b5-a825-4020d5c84478" />
+    <img width="405" height="1705" alt="grafik" src="https://github.com/user-attachments/assets/5c1a262d-f30b-4d73-9e93-344dbed28f6c" /> <img width="400" height="1707" alt="grafik" src="https://github.com/user-attachments/assets/647c9e28-0174-4636-8404-ac06f4c79c74" />
+    <img width="400" height="1708" alt="grafik" src="https://github.com/user-attachments/assets/db84ae8a-d481-4a28-8b4d-1e760236ebd9" /> <img width="403" height="1702" alt="grafik" src="https://github.com/user-attachments/assets/fd1c3665-8d64-4994-9cbb-866b279d1411" /> 
   - **Toggle Neuron**: Enables or disables individual neurons. Entire neural circuits can also be toggled using the selector in the bottom-right corner.
     <img width="3838" height="2158" alt="grafik" src="https://github.com/user-attachments/assets/6407b93c-0347-46c2-ae8a-67c2c4adfa2e" />
   - **External Current Stimuli**: Allows selection of neurons to be stimulated with external current, along with configuration of current amplitude and pulse width.
