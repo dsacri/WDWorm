@@ -16,8 +16,15 @@ This project contains the source code and project files necessary to build the a
 A compiled Windows version of the application is available here: [WDWorm-compiled](https://github.com/dsacri/WDWorm-compiled). It can be run directly without installation.
 
 
-## Requirements
+## System Requirements
 The application is optimized to run on most Windows personal computers. Versions for iOS and Android can be compiled directly from the provided source code and Unity project.
+
+Minimum System Requirements:
+ - Operating System: Windows 7 (SP1+) or later, or macOS High Sierra 10.13+ or later
+ - CPU: X64 architecture with SSE2 instruction set support.
+ - Graphics API: DX10, DX11, or DX12-capable GPUs for Windows, or Metal-capable GPUs for macOS
+ - RAM: 8GB
+
 
 ## Installation
 An installation is not required. The Unity project files can be downloaded and opened in [Unity version 6000.0.32f1](https://unity.com/releases/editor/whats-new/6000.0.32) to run or compile the application. Alternatively, a precompiled version is available at [WDWorm-compiled](https://github.com/dsacri/WDWorm-compiled).
