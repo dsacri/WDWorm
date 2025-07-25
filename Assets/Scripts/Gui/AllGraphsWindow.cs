@@ -256,8 +256,8 @@ public class AllGraphsWindow : MonoBehaviour
 
         MatlabSerializedData matlabSerializedData = InitializationManager.Instance.MatlabSerializedData;
         title.text = matlabSerializedData.membranePotential ? "Membrane Potential" : "Calcium Concentration";
-        peakText.text = matlabSerializedData.membranePotential ? "Peak Activity:" : "Maximum Calcium Amplitude:";
-        averageText.text = matlabSerializedData.membranePotential ? "Average Activity:" : "Average Calcium Amplitude:";
+        peakText.text = matlabSerializedData.membranePotential ? "Peak Activity:" : "Maximum Calcium Concentration:";
+        averageText.text = matlabSerializedData.membranePotential ? "Average Activity:" : "Average Calcium Concentration:";
         RefreshPeakValue();
         RefreshAverageValue();
 
