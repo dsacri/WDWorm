@@ -62,6 +62,6 @@ Three control buttons are located in the top-right corner of the interface:
 This work was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) - Project-ID 434434223 - SFB 1461.
 
 ## License
-The code in this repository is under the BY-NC-SA Creative Commons license as specified by the LICENSE file.
+The code in this repository is under the CC-BY 4.0 Creative Commons license as specified by the LICENSE file.
 
 The 3D-Model used is based on the blender model built by Chris Grove, PhD for WormBase (www.wormbase.org) at the California Institute of Technology and is available for dissemination, with appropriate attribution, under the MIT license: [LICENSE](https://opensource.org/license/mit).
